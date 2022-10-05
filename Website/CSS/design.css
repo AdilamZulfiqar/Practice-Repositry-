@@ -1,0 +1,255 @@
+#navbar {
+    width: 100%;
+    height: 72px;
+    background-color: #212121;
+    display: flex;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 50%);
+    position: absolute;
+    z-index: 2;
+
+}
+
+#logo img {
+    background-color: white;
+    border-radius: 100px;
+    color: inherit;
+    width: 37px;
+    height: 37px;
+    margin: 18px;
+    margin-left: 29px;
+}
+
+#navbar .navbarManeu {
+    display: inline-block;
+    white-space: nowrap;
+    margin-left: 600px;
+
+
+}
+
+#navbar .navbarManeu ul li {
+    display: inline-block;
+    white-space: nowrap;
+    margin: 10px;
+    margin-top: 27px;
+
+}
+
+#navbar .navbarManeu ul li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#navbar .navbarManeu ul li a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.designDiv {
+    width: 100%;
+    height: 180vh;
+    background-color: #212121;
+    display: flex;
+}
+
+.left {
+    width: 70%;
+
+}
+
+.material-dark-theme-content {
+    margin-top: 172px;
+    margin-left: 47px;
+    line-height: 80px;
+    color: white;
+    padding: 10px;
+}
+
+.designDivImage {
+
+    margin-left: 27px;
+    margin-top: 27px;
+    margin-right: 49px;
+    padding: 10px;
+    
+
+
+}
+
+.designDivImage img {
+    border: 1px solid grey;
+    width: 749px;
+    height: 359px;
+    margin: 14px;
+
+}
+
+.designDivImage h3, p{
+    line-height: 27px;
+    color: white;
+    margin-left: 13px;
+}
+
+
+.right {
+    width: 30%;
+    color: white;
+    margin-top: 154px;
+    padding: 7px;
+    margin-right: 90px;
+
+
+}
+
+.right ul li {
+    list-style: none;
+}
+
+.right ul li a {
+    color: white;
+    font-size: 20px;
+    line-height: 37px;
+}
+
+.right img {
+
+    margin-top: 87px;
+    width: 359px;
+    height: 359px;
+    margin-left: -28px;
+
+
+}
+
+.materialGuidelinesImageText {
+    margin-left: -40px;
+    margin-top: 14px;
+    line-height: 27px;
+    color: white;
+}
+
+.right h3 {
+
+    margin-left: 12px;
+    margin-bottom: 7px;
+
+}
+
+.right p {
+    line-height: 23px;
+
+}
+
+.whatsTheNewDivText {
+    width: 100%;
+    height: 117vh;
+    background-color: white;
+    padding: 10px;
+
+}
+
+.whatsTheNewDivText h2,
+p {
+    color: black;
+}
+
+.whatsTheNewDivText h2 {
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 80px;
+    margin-left: 44px;
+    color: rgb(61, 59, 59);
+}
+
+.whatsNewHeadings{
+    margin-left: 44px;
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: -3px;
+}
+
+.whatsNewDiscription{
+    color:grey;
+    margin-left: 44px;
+    margin-bottom: 32px;
+}
+
+.whatsTheNewDivText .date{
+    color:grey;
+    margin-left: 44px;
+    font-family: 'Roboto Mono'
+    
+}
+
+.whatsNewButton{
+
+    width: 100px;
+    height: 33px;
+    margin-left: 44px;
+    color: #424242;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+
+}
+
+.designDiv2{
+    width: 100%;
+    height: 200vh;
+    background-color: white;
+    display: flex;
+    margin-top: -20px;
+    z-index: 1;
+}
+
+.designDiv2Content h2{
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 49px;
+    margin-left: 44px;
+    color: black;
+    padding: 10px;
+
+}
+
+.designDiv2Content p{
+   
+    margin-left: 44px;
+    color: grey;
+    line-height: 27px;
+    padding: 10px;
+}
+
+.materialStudiesDiv{
+    width: 100%;
+    height: 120vh;
+    z-index: 2;
+    background-color:#212121;
+}
+
+
+.designForRetailImageContent h3{
+    color: white;
+    margin-top: 20px;
+    font-size: 21px;
+    font-weight: 100;
+    margin-bottom: 7px;
+    margin-left: 23px;
+}
+
+.designForRetailImageContent p{
+    line-height: 24px;
+    margin-left: 17px;
+    justify-content: center;
+    
+}
+
+.footerContent ul li a{
+    color: grey;
+}
+
+.lastFooterContent ul li a{
+    color: grey;
+}
