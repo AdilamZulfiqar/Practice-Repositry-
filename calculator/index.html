@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+    <label for="number1">Enter first number: </label>
+    <input id="num1" type="text"><br><br>
+    <label for="number2">Enter second number: </label>
+    <input id="num2" type="text"><br><br>
+    <button id="btn1" onclick="Add()">Add</button>
+    <button id="btn2" onclick="subtract()">Subtract</button>
+    <button id="btn3" onclick="multiply()">Multiply</button>
+    <button id="btn4" onclick="division()">Division</button>
+
+    <script>
+     function Add(){
+        var no1 = parseInt($("#num1").val());
+        var no2 = parseInt($("#num2").val());
+        var result = no1+ no2;
+
+        alert("Addition = "+ result);
+     }
+     function subtract(){
+        var no1 = parseInt($("#num1").val());
+        var no2 = parseInt($("#num2").val());
+        var result = no1 - no2;
+
+        alert("Addition = "+ result);
+     }
+
+     function division(){
+        var no1 = parseInt($("#num1").val());
+        var no2 = parseInt($("#num2").val());
+        var result = no1 / no2;
+
+        alert("Addition = "+ result);
+     }
+
+     function multiply(){
+        var no1 = parseInt($("#num1").val());
+        var no2 = parseInt($("#num2").val());
+        var result = no1* no2;
+
+        alert("Addition = "+ result);
+     }
+    </script>
+
+</body>
+</html>
