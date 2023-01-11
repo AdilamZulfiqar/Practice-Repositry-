@@ -1,0 +1,95 @@
+.page-head{
+    color: #5EA51D;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+#contact-container{
+    padding: 80px 40px;
+  }
+  #contact-container .contact-container-lite{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  #contact-container .contact-container-lite .contact-detail{
+    width: 50%;
+    text-align: start;
+    padding-top: 50px;
+  }
+  #contact-container .contact-container-lite .contact-detail h2{
+    margin-top: 15px;
+  }
+  #contact-container .contact-container-lite .contact-detail h4{
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  
+  #contact-container .contact-container-lite .contact-detail div li{
+    list-style: none;
+    margin-top: 15px;
+  }
+  #contact-container .contact-container-lite .map{
+    width: 50%;
+    height: 400px;
+  }
+  #contact-container .contact-container-lite .map iframe{
+    width: 100%;
+    height: 100%;
+  }
+
+  #form-detail{
+    padding: 80px 60px;
+  }
+  #form-detail .form-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+  }
+  #form-detail .form-container form{
+    width: 100%;
+    text-align: start;
+    padding: 20px;
+  }
+  #form-detail .form-container span{
+    margin-top: 10px;
+    font-weight: 400;
+  }
+  #form-detail .form-container h2{
+    margin-top: 10px;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  #form-detail .form-container form input{
+    width: 65%;
+    height: 30px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+  }
+  #form-detail .form-container form textarea{
+    width: 65%;
+    height: 170px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+  }
+  #form-detail .form-container form button{
+    width: 67%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #5EA51D;
+    color: black;
+    border: none;
+    font-weight: 700;
+    transition: 0.3s;
+  
+  }
+  #form-detail .form-container form button:hover{
+    background-color: #5EA51D;
+    color: white;
+  }
+  

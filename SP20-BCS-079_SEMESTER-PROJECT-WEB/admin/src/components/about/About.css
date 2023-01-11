@@ -1,0 +1,46 @@
+#page-header.about-header{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.267), peachpuff);
+    background-size: cover;
+    width: 100%;
+  }
+  #about{
+    padding: 100px 100px 40px 40px;
+  }
+  #about .abt-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  #about .abt-container .abt-img{
+    width: 50%;
+    margin-right: 50px;
+  }
+  #about .abt-container .abt-img img{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+  }
+  #about .abt-container .abt-detail{
+    width: 50%;
+    text-align: center;
+    margin-top: -59px;
+ 
+  }
+  #about .abt-container .abt-detail h1{
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 10px;
+
+  }
+  
+  #about-app{
+    padding: 40px 80px;
+  }
+  #about-app h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  #about-app h3 a{
+    color: gold;
+    border-bottom: 2px solid black;
+  }

@@ -1,0 +1,10 @@
+video {
+  height: 590px;
+  border: 7px solid #d4d597;
+  border-radius: 20px;
+  display: flex;
+  align-items: flex-end;
+  z-index: 2;
+  margin-top: 30px;
+  margin-right: 30px;
+}

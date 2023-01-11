@@ -1,0 +1,40 @@
+body {
+  font-family: "Google Sans", sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 74px;
+  background-color: #212121;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .navbarMenu .houseIcon {
+  width: 37px;
+  height: 37px;
+}
+
+.navbar .navbarMenu ul {
+  list-style-type: none;
+}
+
+.navbar .navbarMenu ul li {
+  display: inline;
+  margin: 10px;
+}
+
+.navbar .navbarMenu ul li a {
+  text-decoration: none;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .navbarMenu ul li .searchIcon {
+  width: 22px;
+  height: 22px;
+}
+
+.navbarText {
+  font-size: 16px;
+}
